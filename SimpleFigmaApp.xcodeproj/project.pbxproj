@@ -11,6 +11,14 @@
 		FA2FE9D3289BE26600A2C450 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FE9D2289BE26600A2C450 /* ContentView.swift */; };
 		FA2FE9D5289BE26800A2C450 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2FE9D4289BE26800A2C450 /* Assets.xcassets */; };
 		FA2FE9D8289BE26800A2C450 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA2FE9D7289BE26800A2C450 /* Preview Assets.xcassets */; };
+		FA2FE9E4289FDC3B00A2C450 /* Inter-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA2FE9E2289FDC3B00A2C450 /* Inter-Bold.otf */; };
+		FA2FE9E5289FDC3B00A2C450 /* Inter-SemiBold.otf in Resources */ = {isa = PBXBuildFile; fileRef = FA2FE9E3289FDC3B00A2C450 /* Inter-SemiBold.otf */; };
+		FA2FE9E8289FDD3200A2C450 /* FontStyles.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FE9E7289FDD3200A2C450 /* FontStyles.swift */; };
+		FA2FE9EA289FE02F00A2C450 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FE9E9289FE02F00A2C450 /* TaskListView.swift */; };
+		FA2FE9EC289FE04400A2C450 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FE9EB289FE04400A2C450 /* SettingsView.swift */; };
+		FA2FE9EE289FE05B00A2C450 /* InboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FE9ED289FE05B00A2C450 /* InboxView.swift */; };
+		FA2FE9F0289FE06A00A2C450 /* RemindersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FE9EF289FE06A00A2C450 /* RemindersView.swift */; };
+		FA2FE9F2289FE5C600A2C450 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2FE9F1289FE5C600A2C450 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,15 @@
 		FA2FE9D2289BE26600A2C450 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FA2FE9D4289BE26800A2C450 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA2FE9D7289BE26800A2C450 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FA2FE9E2289FDC3B00A2C450 /* Inter-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.otf"; sourceTree = "<group>"; };
+		FA2FE9E3289FDC3B00A2C450 /* Inter-SemiBold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.otf"; sourceTree = "<group>"; };
+		FA2FE9E6289FDCA500A2C450 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FA2FE9E7289FDD3200A2C450 /* FontStyles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontStyles.swift; sourceTree = "<group>"; };
+		FA2FE9E9289FE02F00A2C450 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		FA2FE9EB289FE04400A2C450 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		FA2FE9ED289FE05B00A2C450 /* InboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InboxView.swift; sourceTree = "<group>"; };
+		FA2FE9EF289FE06A00A2C450 /* RemindersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemindersView.swift; sourceTree = "<group>"; };
+		FA2FE9F1289FE5C600A2C450 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +68,16 @@
 		FA2FE9CF289BE26600A2C450 /* SimpleFigmaApp */ = {
 			isa = PBXGroup;
 			children = (
+				FA2FE9E6289FDCA500A2C450 /* Info.plist */,
 				FA2FE9D0289BE26600A2C450 /* SimpleFigmaAppApp.swift */,
 				FA2FE9D2289BE26600A2C450 /* ContentView.swift */,
+				FA2FE9E7289FDD3200A2C450 /* FontStyles.swift */,
+				FA2FE9E9289FE02F00A2C450 /* TaskListView.swift */,
+				FA2FE9EB289FE04400A2C450 /* SettingsView.swift */,
+				FA2FE9ED289FE05B00A2C450 /* InboxView.swift */,
+				FA2FE9EF289FE06A00A2C450 /* RemindersView.swift */,
+				FA2FE9F1289FE5C600A2C450 /* Task.swift */,
+				FA2FE9E1289FDC2900A2C450 /* Fonts */,
 				FA2FE9D4289BE26800A2C450 /* Assets.xcassets */,
 				FA2FE9D6289BE26800A2C450 /* Preview Content */,
 			);
@@ -65,6 +90,15 @@
 				FA2FE9D7289BE26800A2C450 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FA2FE9E1289FDC2900A2C450 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				FA2FE9E2289FDC3B00A2C450 /* Inter-Bold.otf */,
+				FA2FE9E3289FDC3B00A2C450 /* Inter-SemiBold.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +161,8 @@
 			files = (
 				FA2FE9D8289BE26800A2C450 /* Preview Assets.xcassets in Resources */,
 				FA2FE9D5289BE26800A2C450 /* Assets.xcassets in Resources */,
+				FA2FE9E4289FDC3B00A2C450 /* Inter-Bold.otf in Resources */,
+				FA2FE9E5289FDC3B00A2C450 /* Inter-SemiBold.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +173,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA2FE9F2289FE5C600A2C450 /* Task.swift in Sources */,
+				FA2FE9EC289FE04400A2C450 /* SettingsView.swift in Sources */,
+				FA2FE9F0289FE06A00A2C450 /* RemindersView.swift in Sources */,
+				FA2FE9EE289FE05B00A2C450 /* InboxView.swift in Sources */,
 				FA2FE9D3289BE26600A2C450 /* ContentView.swift in Sources */,
 				FA2FE9D1289BE26600A2C450 /* SimpleFigmaAppApp.swift in Sources */,
+				FA2FE9E8289FDD3200A2C450 /* FontStyles.swift in Sources */,
+				FA2FE9EA289FE02F00A2C450 /* TaskListView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +311,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleFigmaApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleFigmaApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -297,6 +340,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"SimpleFigmaApp/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SimpleFigmaApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
